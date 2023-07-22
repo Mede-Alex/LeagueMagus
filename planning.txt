@@ -1,0 +1,44 @@
+----------LeagueMagus ideas------------------
+NEW NAME: LeagueADCarry ???
+
+1. research setup
+ - git init
+ - venv creation with req.txt
+ - .ipynb s files for testing
+	- binary classification EDA
+		- 239 colums ('perks' seems unimportant, 'challenges' is another dict) -- maybe not a bad ideea to keep all of them (based on article, more categories of features https://arxiv.org/pdf/2012.09424.pdf)
+		- timePlayed column (game duration)
+		- first model will reffer only ADC (BOTTOM)
+		- EDA on last 100 games 'summonerName' --> to find player --> classification (win/lose)
+		- EDA on the other 9 players (select columns based on feature importance (max 10))
+		- reminder: EDA on binary class TDS
+	- data on all teammates or 1:N 
+
+2. app setup
+ - python module creation
+ - dockerized process
+ - Django + Vue 
+ - localhost --> HF, internet
+
+3. Usacase 
+ - ONLY FOR ADC dudes (for easier interpretation with my own data)
+ - a lot of research and computing power (maybe try G Colab Pro)
+ - train more models based on Iron, Bronze, Silver, Gold, Plat (my data), Diamond, Master, Challenger
+ - user inputs name, division, get output from model for the last 20 matches (if he should have won/lost compared to the middle dude in division)
+			----> get final response if he is worthy to climb, stay in this division or demote
+ - data should be updated regularly (because patches, buffs, nerfs)
+ - predict maybe on teams (pre-game features), sum(features)/5 for both teams (research topic)
+
+Plan:
+- Plat 4 data for all teams (last 500 matches of 5 players PLAT 4, PLAT 3, PLAT 2)
+- Find another 4 players (plat 5, plat 3, plat 2, plat 1)
+- Save this data as csv
+- EDA on this
+- Forest algo to see some results (accuracy might be the best metric here)
+
+
+
+* create one csv from my data (100 matches), see which columns are alike, which are not (10 rows -> 2 rows) ---> 200 rows (win/losses)
+
+
+ Git token: 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
