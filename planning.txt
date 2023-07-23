@@ -40,5 +40,28 @@ Plan:
 
 * create one csv from my data (100 matches), see which columns are alike, which are not (10 rows -> 2 rows) ---> 200 rows (win/losses)
 
+-useful variables:
+ints - ['assists', 'champExperience', 'champLevel', 'consumablesPurchased', 'damageDealtToBuildings', 'damageDealtToObjectives', 'damageDealtToTurrets',
+'dangerPings', 'deaths', 'detectorWardsPlaced', 'doubleKills', 'dragonKills', 'enemyMissingPings', 'goldEarned', 'goldSpent', 'inhibitorTakedowns',
+'inhibitorsLost', 'kills', 'largestKillingSpree', 'longestTimeSpentLiving', 'neutralMinionsKilled', 'spell1Casts', 'spell2Casts', 'spell3Casts', 'spell4Casts',
+'summonerLevel', 'totalDamageDealtToChampions', 'totalDamageShieldedOnTeammates', 'totalDamageTaken', 'totalEnemyJungleMinionsKilled', 'totalHeal',
+'totalMinionsKilled', 'totalTimeCCDealt', 'totalTimeSpentDead','trueDamageDealt', 'trueDamageDealtToChampions', 'trueDamageTaken', 'turretKills', 'turretsLost',
+'visionScore', 'wardsKilled', 'wardsPlaced', 'dragonKills', 'baronKills', challenges['highestChampionDamage'], 
+
+
+bools - ['firstBloodKill', 'firstTowerKill', 'win' (TARGET TRUE/FALSE)  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  Git token: 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
