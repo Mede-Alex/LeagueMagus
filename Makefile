@@ -1,2 +1,2 @@
 run_tests:
-	python -m unittest discover
+	python -m unittest -v
